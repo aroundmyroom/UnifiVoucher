@@ -1,4 +1,5 @@
-# UnifiVoucher
+# Unifi Voucher with cloudkey & controller 
+tested with php 7.3 and Controller 7.2.39
 Most Stupid PHP script to create vouchers and show it in a HTML page (with Controller 7.2.39)
 
 This script relies on the PHP Unifi-API class https://github.com/Art-of-WiFi/UniFi-API-client
