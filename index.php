@@ -13,8 +13,6 @@ if (file_exists($filename)) {
 
 include("/var/www/html/create_voucher.php");
 
-//echo "<br />refresh page to see new voucher<br />"; 
-
 }
 echo $message;
 
