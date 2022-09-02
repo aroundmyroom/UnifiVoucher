@@ -4,7 +4,7 @@ Most Stupid PHP script to create vouchers and show it in a HTML page (with Contr
 
 This script relies on the PHP Unifi-API class https://github.com/Art-of-WiFi/UniFi-API-client
 
-Make sure that the Unifi-API-Clients is running and make sure you can use the create_vouchers.php and config.php
+Make sure that the Unifi-API-Client is installed on your system and make sure you can use the create_vouchers.php and config.php
 Without that, this stupid PHP script will not work
 
 What does this script
