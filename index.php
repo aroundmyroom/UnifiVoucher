@@ -48,9 +48,12 @@ $decoded = json_decode($content, true);
 <?php
     foreach($decoded as $result){
 
+	$output[0] = substr($result['code'], 0, 5);
+        $output[1] = substr($result['code'], 5);
+
 ?>
         <tr>
-            <td><b><?php echo $result['code']; ?></b></td>
+            <td><b><?php echo $output[0] ?> - <?php echo $output[1]; ?></b></td>
             <td><?php echo "Your WiFi Spot" ?></td>
 	    <td><?php echo $result['admin_name']; ?></td>
  	    <td><?php echo $result['quota']; ?></td>
