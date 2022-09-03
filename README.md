@@ -17,6 +17,7 @@ Modify the create_vouchers.php to your needs
 and modify the latest lines
 
 //echo json_encode($vouchers, JSON_PRETTY_PRINT);
+
 file_put_contents('/var/www/html/voucher.json', json_encode($vouchers));
 
 disable the json output and make sure it is being written as file as above. 
