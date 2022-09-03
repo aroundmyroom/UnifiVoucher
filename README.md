@@ -26,3 +26,7 @@ the index.php is the only file being used. Alter to your needs. Changes apprecia
 the index.php is reading the json file and putting it in a simple HTML table. 
 
 Help to modify, clean, adjust, improve is much appreciated
+a lot of things are not working as I would like it
+
+Caching should not be used, when the voucher is marked as used the file must be removed and the page reloaded automatically ot the index.php
+etc.
